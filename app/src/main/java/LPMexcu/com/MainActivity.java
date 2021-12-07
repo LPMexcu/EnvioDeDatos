@@ -23,7 +23,6 @@ public class MainActivity extends AppCompatActivity {
             new ActivityResultCallback<ActivityResult>() {
                 @Override
                 public void onActivityResult(ActivityResult result) {
-                    Toast.makeText(MainActivity.this, "YS", Toast.LENGTH_LONG).show();
                     if (result.getResultCode() == Activity.RESULT_OK) {
                         Intent cn = result.getData();
                         Usuario usu = (Usuario)cn.getSerializableExtra("usuario");
