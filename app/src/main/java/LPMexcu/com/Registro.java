@@ -26,7 +26,7 @@ public class Registro extends AppCompatActivity {
         btncancel = (Button) findViewById(R.id.btncanreg);
 
         txtnom = (EditText) findViewById(R.id.txtname);
-        txttel = (EditText) findViewById(R.id.txtname);
+        txttel = (EditText) findViewById(R.id.txtphone);
         txtcorre = (EditText) findViewById(R.id.txtmail);
         txtcontra = (EditText) findViewById(R.id.txtcontra);
 
@@ -43,6 +43,11 @@ public class Registro extends AppCompatActivity {
             cn.putExtra("usuario", usu);
             setResult(RESULT_OK,cn);
             finish();
+        });
+
+        btncancel.setOnClickListener(view ->{
+
+
         });
 
     }
