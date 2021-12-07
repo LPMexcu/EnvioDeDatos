@@ -3,10 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/login/app/src/main/res/layout/activity_continuar.xml" value="0.22" />
-        <entry key="..\:/login/app/src/main/res/layout/activity_loginusu.xml" value="0.22" />
-        <entry key="..\:/login/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/login/app/src/main/res/layout/activity_registro.xml" value="0.25" />
+        <entry key="..\:/Proyectochido/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Proyectochido/app/src/main/res/layout/activity_registro.xml" value="0.25" />
       </map>
     </option>
   </component>

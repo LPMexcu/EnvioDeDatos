@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.login">
+    package="LPMexcu.com">
 
     <application
         android:allowBackup="true"
@@ -10,13 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Login">
         <activity
-            android:name=".continuar"
-            android:exported="false" />
-        <activity
             android:name=".Registro"
-            android:exported="false" />
-        <activity
-            android:name=".Loginusu"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
